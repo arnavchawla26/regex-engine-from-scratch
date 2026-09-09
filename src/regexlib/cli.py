@@ -94,7 +94,7 @@ def run(argv: Optional[List[str]] = None, stdout: TextIO = None, stderr: TextIO 
                             line=line,
                             only_matching=True,
                             match_text=m.group(),
-                    )
+                        )
                 else:
                     _print_hit(
                         stdout,
